@@ -1,0 +1,10 @@
+:root {
+    --bs-black-rgb: 71, 60, 139; 
+    --bs-border-color-translucent: 	#D8BFD8;
+    --bs-secondary-rgb:	198, 226, 255;
+    --bs-white-rgb: 0,0,0;
+    /* --bs-dark-bg-subtle: 147, 112, 219;  */
+   
+    /* --bg-primary: #EEE9E9;
+    --bg-secondary: #FF00FF; */
+}
