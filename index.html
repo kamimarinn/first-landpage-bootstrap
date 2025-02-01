@@ -16,9 +16,13 @@
             <h1 class="text-white">First Bootstrap</h1>
             <!-- semantic color -->
             <nav class="d-flex gap-4">
+                <img width="50" height="50" class=" gap-5 py-2" src="src/assets/images/portfolio-svgrepo-com.svg" alt="">
                 <a class="text-white fs-4" href="#portfolio">Portfolio</a>
+                <img width="50" height="50" class="py-2" src="src/assets/images/girl-user-svgrepo-com.svg" alt="">
                 <a class="text-white fs-4" href="#about">About</a>
+                <img width="50" height="50" class="py-2" src="src/assets/images/about-description-help-svgrepo-com.svg" alt="">
                 <a class="text-white fs-4" href="#contact">Contact</a> 
+                
                 <!-- ctrl + alt pra baixo -->
                 <!-- ctrl + D apaga -->
             </nav>
@@ -31,7 +35,7 @@
     </main>    
 
     <section id="portfolio" class="w-60 d-flex flex-column align-items-center gap-3 py-5">
-        <h3>Portfolio</h3>
+        <h3 class="text-black fs-1 py-5 fw-bold fst-italic">Portfolio</h3>
         
         <div class="divider w-100 d-flex align-items-center justify-content-center gap-4" >
           <div class="divider-line w-25 bg-black"></div>
@@ -47,18 +51,18 @@
               <div class="card-body">
                 <h5 class="card-title">EcoGuia</h5>
                 <p class="card-text">Este projeto oferece uma plataforma com artigos sobre sustentabilidade, promovendo a conscientização e incentivando práticas de consumo responsável de forma interativa e educativa.</p>
-                <a href="https://github.com/lucasmvaladao/EcoGuiaWEB/tree/main" class="btn btn-primary">Repositório</a>
+                <a href="https://github.com/lucasmvaladao/EcoGuiaWEB/tree/main" class="btn btn-secondary">Repositório</a>
               </div>
             </div>
             </div>
 
             <div class="col">
             <div class="card" style="width: 18rem;">
-              <img width="100" height="100" src="./src/assets/images/cat-5-svgrepo-com.svg" class="card-img-top" alt="...">
+              <img width="100" height="100" src="./src/assets/images/cat-svgrepo-com.svg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Editora Bastet</h5>
                 <p class="card-text">Editora Bastet: onde você vai encontrar os mais variados tipos de livros classicos. Projeto desenvolvido durante o 2º semestre do Técnico do curso de Desenvolvimento de Sistemas.</p>
-                <a href="https://github.com/kamimarinn/editora-bastet-react" class="btn btn-primary">Repositório</a>
+                <a href="https://github.com/kamimarinn/editora-bastet-react" class="btn btn-secondary">Repositório</a>
               </div>
             </div>
           </div>
@@ -69,7 +73,7 @@
               <div class="card-body">
                 <h5 class="card-title">First Page Bootstrap</h5>
                 <p class="card-text">Primeiro projeto em Bootstrap, feito durante a aula ministrado pelo professor Lucas Correa. </p>
-                <a href="https://github.com/kamimarinn/first-landpage-bootstrap" class="btn btn-primary">Repositório</a>
+                <a href="https://github.com/kamimarinn/first-landpage-bootstrap" class="btn btn-secondary">Repositório</a>
               </div>
             </div>
             </div>
@@ -80,7 +84,7 @@
               <div class="card-body">
                 <h5 class="card-title">Temperatura</h5>
                 <p class="card-text">Projeto que verifica a temperatura de acordo com Celsius ou Fahrenheit. </p>
-                <a href="https://github.com/kamimarinn/Temperatura" class="btn btn-primary">Repositorio</a>
+                <a href="https://github.com/kamimarinn/Temperatura" class="btn btn-secondary">Repositorio</a>
               </div>
             </div>
           </div>
@@ -111,47 +115,61 @@
     </section>
 
     <section id="about" class="w-100 d-flex flex-column justify-content-center align-items-center gap-3">
-      <div class="w-100 bg-dark-subtle d-flex justify-content-center align-items-center" >
-        <h3 class="text-black fs-1 py-5 fw-bold fst-italic" >About Me</h3>
-        <img width="60" height="60" class="py-2" src="src/assets/images/girl-user-svgrepo-com.svg" alt="">
+ 
+      <h3 class="text-black fs-1 py-5 fw-bold fst-italic">About Me</h3>
+      
+      <div class="divider w-100 d-flex align-items-center justify-content-center gap-4">
+        <div class="divider-line w-25 bg-black"></div>
+        <img width="50" height="50" src="./src/assets/images/star-alt-4-svgrepo-com.svg" alt="icone estrela">
+        <div class="divider-line w-25 bg-black"></div>
       </div>
+      
       <div class="w-100 d-flex justify-content-between"> 
         <p class="d-flex justify-content-start w-50 pt-4 py-4 px-5">
           Nascida e criada em São Paulo, tem 26 anos e atualmente está fazendo cursos extras na área de Front-End. 
           Tem bacharel em Letras pela Universidade Presbiteriana Mackenzie e Técnico pelo Senai Suiço-Brasileiro. 
-         
         </p>
         <p class="d-flex justify-content-start w-50 pt-4 py-4 px-5">
           Nas horas vagas gosta de ler. Tem uma conta no Instagram dedicada a falar sobre livro: Arcturus Library.
           Lá faz resenhas literárias e divulga noticias sobre o universo dos livros, mangás, animes, series, etc.
-          
         </p>
+      </div>
+      
+      <!-- Ícone e Link do Instagram abaixo do texto -->
+      <div class="d-flex flex-column align-items-center">
+        <a href="https://www.instagram.com/arcturuslibrary" target="_blank" aria-label="Link para o Instagram">
+          <img width="60" height="60" src="src/assets/images/instagram-svgrepo-com.svg" alt="Ícone Instagram">
+        </a>
+        
+        <a href="https://www.instagram.com/arcturuslibrary" class="btn btn-secondary  px-2 gap-1 mt-2">Me siga no Instagram</a>
       </div>
     </section>
     
-    <section id="contact" class="">
-      <div class="w-100 bg-dark-subtle d-flex justify-content-center align-items-center">
-        <h3 class="text-black fs-1 py-5 fw-bold fst-italic">Contact</h3>
-        <img width="60" height="60" class="py-2" src="src/assets/images/about-description-help-svgrepo-com.svg" alt="">
-      </div>
-      <div class="w-100 d-flex justify-content-between px-5">
-       
-        <div class="d-flex flex-column align-items-center w-50 py-5">
-          <a href="" target="_blank" aria-label="Link para o LinkedIn"></a>
-          <img width="85" height="85" src="src/assets/images/linkedin-svgrepo-com.svg"  alt="Ícone Linkedin">
-          <!-- <h4 class="text-center mt-2">Linkedin</h4> -->
-          <a href="https://www.linkedin.com/in/kamila-cavalcante-45540915a/" class="btn btn-primary bg-dark-subtle text-black px-2 gap-1">LinkedIn</a>
-        </div>
     
+    <section id="contact" class="w-100 d-flex flex-column justify-content-center align-items-center gap-3">
+      <h3 class="text-black fs-1 py-5 fw-bold fst-italic">Contact</h3>
+    
+      <div class="divider w-100 d-flex align-items-center justify-content-center gap-4">
+        <div class="divider-line w-25 bg-black"></div>
+        <img width="50" height="50" src="./src/assets/images/star-alt-4-svgrepo-com.svg" alt="icone estrela">
+        <div class="divider-line w-25 bg-black"></div>
+      </div>
+    
+    
+      <div class="d-flex justify-content-center align-items-center w-50 gap-5 py-5">
         
-        <div class="d-flex flex-column align-items-center w-50 py-5">
-          <a href="" target="_blank" aria-label="Link para o Instagram"></a>
-          <img width="80" height="80" src="src/assets/images/instagram-svgrepo-com.svg" alt="Ícone Instagram">
-          <a href="https://www.instagram.com/arcturuslibrary" class="btn btn-primary bg-dark-subtle text-black px-2 gap-1">Instagram</a>
+        <div class="d-flex flex-column align-items-center">
+          <a href="https://www.linkedin.com/in/kamila-cavalcante-45540915a/" target="_blank" aria-label="Link para o LinkedIn">
+            <img width="85" height="85" src="src/assets/images/linkedin-svgrepo-com.svg" alt="Ícone Linkedin">
+          </a>
+        
+          <a href="https://www.linkedin.com/in/kamila-cavalcante-45540915a/" class="btn btn-secondary  px-2 gap-1 mt-2">LinkedIn</a>
         </div>
+    
+       
       </div>
     
-      <div class="divider w-100 d-flex align-items-center justify-content-center gap-3 py-4">
+      <div class="divider w-100 d-flex align-items-center justify-content-center gap-5 py-4">
         <div class="divider-line w-25 bg-black"></div>
         <img width="50" height="50" src="./src/assets/images/star-alt-4-svgrepo-com.svg" alt="Ícone de estrela">
         <div class="divider-line w-25 bg-black"></div>
@@ -161,6 +179,7 @@
         By Kami Marin
       </p>
     </section>
+    
     
     
   
